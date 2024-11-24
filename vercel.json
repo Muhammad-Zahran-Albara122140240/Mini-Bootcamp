@@ -1,16 +1,7 @@
 {
     "rewrites": [
       {
-        "source": "/index",
-        "destination": "/index.js"
-      },
-      {
-        "source": "/portfolio",
-        "destination": "/portfolio.js"
-      },
-      {
-        "source": "/skills",
-        "destination": "/skills.js"
+        "source": "/(.*)", "destination": "/project-js/pages/index.js"
       }
     ]
   }
